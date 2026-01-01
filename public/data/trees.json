@@ -1,0 +1,2556 @@
+{
+  "type": "FeatureCollection",
+  "name": "Pohon Peneduh Pekanbaru",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "PKU001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452758,
+          0.524792
+        ]
+      },
+      "properties": {
+        "id": "PKU001",
+        "species": "Bintaro",
+        "diameter": 29.94,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452758,
+          0.524792
+        ]
+      },
+      "properties": {
+        "id": "PKU002",
+        "species": "BIntaro",
+        "diameter": 39.49,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452758,
+          0.524792
+        ]
+      },
+      "properties": {
+        "id": "PKU003",
+        "species": "Mahoni",
+        "diameter": 20.7,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452708,
+          0.524845
+        ]
+      },
+      "properties": {
+        "id": "PKU004",
+        "species": "Bintaro",
+        "diameter": 19.75,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 2.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452843,
+          0.524563
+        ]
+      },
+      "properties": {
+        "id": "PKU005",
+        "species": "Bintaro",
+        "diameter": 62.1,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 5.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452728,
+          0.524533
+        ]
+      },
+      "properties": {
+        "id": "PKU006",
+        "species": "Bintaro",
+        "diameter": 25.16,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452816,
+          0.524368
+        ]
+      },
+      "properties": {
+        "id": "PKU007",
+        "species": "Bintaro",
+        "diameter": 25.8,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452615,
+          0.521853
+        ]
+      },
+      "properties": {
+        "id": "PKU008",
+        "species": "Mahoni",
+        "diameter": 16.24,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 2.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45263,
+          0.521803
+        ]
+      },
+      "properties": {
+        "id": "PKU009",
+        "species": "Mahoni",
+        "diameter": 26.75,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452499,
+          0.519105
+        ]
+      },
+      "properties": {
+        "id": "PKU010",
+        "species": "Bintaro",
+        "diameter": 40.76,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452508,
+          0.519149
+        ]
+      },
+      "properties": {
+        "id": "PKU011",
+        "species": "Mahoni",
+        "diameter": 30.89,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452191,
+          0.512439
+        ]
+      },
+      "properties": {
+        "id": "PKU012",
+        "species": "Mahoni",
+        "diameter": 56.05,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452263,
+          0.512245
+        ]
+      },
+      "properties": {
+        "id": "PKU013",
+        "species": "Mahoni",
+        "diameter": 17.52,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 2.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452162,
+          0.513213
+        ]
+      },
+      "properties": {
+        "id": "PKU014",
+        "species": "Mahoni",
+        "diameter": 10.19,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 2.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452127,
+          0.513293
+        ]
+      },
+      "properties": {
+        "id": "PKU015",
+        "species": "Mahoni",
+        "diameter": 11.15,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 2.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452139,
+          0.513386
+        ]
+      },
+      "properties": {
+        "id": "PKU016",
+        "species": "Mahoni",
+        "diameter": 24.52,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452153,
+          0.513976
+        ]
+      },
+      "properties": {
+        "id": "PKU017",
+        "species": "Mahoni",
+        "diameter": 13.38,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 2.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452132,
+          0.514115
+        ]
+      },
+      "properties": {
+        "id": "PKU018",
+        "species": "Mahoni",
+        "diameter": 33.44,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452144,
+          0.514168
+        ]
+      },
+      "properties": {
+        "id": "PKU019",
+        "species": "Bintaro",
+        "diameter": 7.96,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 2.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45225,
+          0.516432
+        ]
+      },
+      "properties": {
+        "id": "PKU020",
+        "species": "Mahoni",
+        "diameter": 44.59,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452223,
+          0.516495
+        ]
+      },
+      "properties": {
+        "id": "PKU021",
+        "species": "Mahoni",
+        "diameter": 37.9,
+        "temperature": 24.0,
+        "condition": "Rusak",
+        "ecological_score": 2.4,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452231,
+          0.516551
+        ]
+      },
+      "properties": {
+        "id": "PKU022",
+        "species": "Mahoni",
+        "diameter": 59.24,
+        "temperature": 24.0,
+        "condition": "Rusak",
+        "ecological_score": 3.1,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452251,
+          0.516624
+        ]
+      },
+      "properties": {
+        "id": "PKU023",
+        "species": "Mahoni",
+        "diameter": 48.41,
+        "temperature": 24.0,
+        "condition": "Rusak",
+        "ecological_score": 2.8,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU024",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452231,
+          0.51674
+        ]
+      },
+      "properties": {
+        "id": "PKU024",
+        "species": "Mahoni",
+        "diameter": 42.68,
+        "temperature": 24.0,
+        "condition": "Rusak",
+        "ecological_score": 2.8,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU025",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452319,
+          0.517987
+        ]
+      },
+      "properties": {
+        "id": "PKU025",
+        "species": "Mahoni",
+        "diameter": 28.98,
+        "temperature": 24.0,
+        "condition": "Rusak",
+        "ecological_score": 2.1,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452308,
+          0.518005
+        ]
+      },
+      "properties": {
+        "id": "PKU026",
+        "species": "Mahoni",
+        "diameter": 44.27,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU027",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452253,
+          0.518091
+        ]
+      },
+      "properties": {
+        "id": "PKU027",
+        "species": "Mahoni",
+        "diameter": 35.03,
+        "temperature": 24.0,
+        "condition": "Rusak",
+        "ecological_score": 2.4,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU028",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452378,
+          0.520202
+        ]
+      },
+      "properties": {
+        "id": "PKU028",
+        "species": "Mahoni",
+        "diameter": 30.25,
+        "temperature": 24.0,
+        "condition": "Rusak",
+        "ecological_score": 2.4,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU029",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452379,
+          0.520223
+        ]
+      },
+      "properties": {
+        "id": "PKU029",
+        "species": "Bintaro",
+        "diameter": 36.94,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU030",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452397,
+          0.520277
+        ]
+      },
+      "properties": {
+        "id": "PKU030",
+        "species": "Bintaro",
+        "diameter": 43.31,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU031",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452106,
+          0.517388
+        ]
+      },
+      "properties": {
+        "id": "PKU031",
+        "species": "Bintaro",
+        "diameter": 53.18,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU032",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452077,
+          0.517402
+        ]
+      },
+      "properties": {
+        "id": "PKU032",
+        "species": "Mahoni",
+        "diameter": 61.78,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 5.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU033",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.452042,
+          0.517403
+        ]
+      },
+      "properties": {
+        "id": "PKU033",
+        "species": "Mahoni",
+        "diameter": 40.45,
+        "temperature": 24.0,
+        "condition": "Kering",
+        "ecological_score": 1.6,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU034",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.451176,
+          0.517466
+        ]
+      },
+      "properties": {
+        "id": "PKU034",
+        "species": "Mahoni",
+        "diameter": 35.03,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU035",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.451136,
+          0.517413
+        ]
+      },
+      "properties": {
+        "id": "PKU035",
+        "species": "Bintaro",
+        "diameter": 48.73,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU036",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.451071,
+          0.517428
+        ]
+      },
+      "properties": {
+        "id": "PKU036",
+        "species": "Mahoni",
+        "diameter": 47.13,
+        "temperature": 24.0,
+        "condition": "Rusak",
+        "ecological_score": 2.8,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU037",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.451008,
+          0.517454
+        ]
+      },
+      "properties": {
+        "id": "PKU037",
+        "species": "Mahoni",
+        "diameter": 60.19,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 5.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU038",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450792,
+          0.517464
+        ]
+      },
+      "properties": {
+        "id": "PKU038",
+        "species": "Mahoni",
+        "diameter": 50.0,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU039",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450773,
+          0.517461
+        ]
+      },
+      "properties": {
+        "id": "PKU039",
+        "species": "Mahoni",
+        "diameter": 49.68,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU040",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450655,
+          0.517433
+        ]
+      },
+      "properties": {
+        "id": "PKU040",
+        "species": "Mahoni",
+        "diameter": 51.59,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU041",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450593,
+          0.517461
+        ]
+      },
+      "properties": {
+        "id": "PKU041",
+        "species": "Mahoni",
+        "diameter": 56.05,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU042",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450255,
+          0.517577
+        ]
+      },
+      "properties": {
+        "id": "PKU042",
+        "species": "Mahoni",
+        "diameter": 42.99,
+        "temperature": 24.0,
+        "condition": "Rusak",
+        "ecological_score": 2.8,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU043",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450411,
+          0.517754
+        ]
+      },
+      "properties": {
+        "id": "PKU043",
+        "species": "Mahoni",
+        "diameter": 48.73,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU044",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450179,
+          0.517452
+        ]
+      },
+      "properties": {
+        "id": "PKU044",
+        "species": "Mahoni",
+        "diameter": 35.99,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU045",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450183,
+          0.517752
+        ]
+      },
+      "properties": {
+        "id": "PKU045",
+        "species": "Mahoni",
+        "diameter": 35.03,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU046",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450015,
+          0.517537
+        ]
+      },
+      "properties": {
+        "id": "PKU046",
+        "species": "Mahoni",
+        "diameter": 39.17,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU047",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450015,
+          0.517537
+        ]
+      },
+      "properties": {
+        "id": "PKU047",
+        "species": "Mahoni",
+        "diameter": 57.32,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU048",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450015,
+          0.517537
+        ]
+      },
+      "properties": {
+        "id": "PKU048",
+        "species": "Mahoni",
+        "diameter": 26.43,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU049",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449869,
+          0.517544
+        ]
+      },
+      "properties": {
+        "id": "PKU049",
+        "species": "Mahoni",
+        "diameter": 47.45,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU050",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450038,
+          0.517462
+        ]
+      },
+      "properties": {
+        "id": "PKU050",
+        "species": "Mahoni",
+        "diameter": 61.78,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 5.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU051",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449856,
+          0.517492
+        ]
+      },
+      "properties": {
+        "id": "PKU051",
+        "species": "Mahoni",
+        "diameter": 46.5,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU052",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449827,
+          0.517873
+        ]
+      },
+      "properties": {
+        "id": "PKU052",
+        "species": "Mahoni",
+        "diameter": 56.37,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU053",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449611,
+          0.517504
+        ]
+      },
+      "properties": {
+        "id": "PKU053",
+        "species": "Mahoni",
+        "diameter": 52.87,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU054",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449366,
+          0.517486
+        ]
+      },
+      "properties": {
+        "id": "PKU054",
+        "species": "Mahoni",
+        "diameter": 43.63,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU055",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449439,
+          0.517493
+        ]
+      },
+      "properties": {
+        "id": "PKU055",
+        "species": "Mahoni",
+        "diameter": 55.41,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU056",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449259,
+          0.517589
+        ]
+      },
+      "properties": {
+        "id": "PKU056",
+        "species": "Mahoni",
+        "diameter": 29.3,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU057",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449215,
+          0.517536
+        ]
+      },
+      "properties": {
+        "id": "PKU057",
+        "species": "Mahoni",
+        "diameter": 57.96,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU058",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.448712,
+          0.517457
+        ]
+      },
+      "properties": {
+        "id": "PKU058",
+        "species": "Mahoni",
+        "diameter": 50.32,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU059",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.448608,
+          0.517503
+        ]
+      },
+      "properties": {
+        "id": "PKU059",
+        "species": "Mahoni",
+        "diameter": 30.57,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU060",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.448608,
+          0.517503
+        ]
+      },
+      "properties": {
+        "id": "PKU060",
+        "species": "Mahoni",
+        "diameter": 49.04,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU061",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.448472,
+          0.517702
+        ]
+      },
+      "properties": {
+        "id": "PKU061",
+        "species": "Mahoni",
+        "diameter": 51.59,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU062",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450066,
+          0.517727
+        ]
+      },
+      "properties": {
+        "id": "PKU062",
+        "species": "Mahoni",
+        "diameter": 25.16,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU063",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450066,
+          0.517727
+        ]
+      },
+      "properties": {
+        "id": "PKU063",
+        "species": "Mahoni",
+        "diameter": 15.92,
+        "temperature": 24.0,
+        "condition": "Rusak",
+        "ecological_score": 1.8,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU064",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45029,
+          0.517672
+        ]
+      },
+      "properties": {
+        "id": "PKU064",
+        "species": "Mahoni",
+        "diameter": 51.91,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU065",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45029,
+          0.517672
+        ]
+      },
+      "properties": {
+        "id": "PKU065",
+        "species": "Mahoni",
+        "diameter": 42.36,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU066",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45029,
+          0.517672
+        ]
+      },
+      "properties": {
+        "id": "PKU066",
+        "species": "Mahoni",
+        "diameter": 27.39,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU067",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45029,
+          0.517672
+        ]
+      },
+      "properties": {
+        "id": "PKU067",
+        "species": "Mahoni",
+        "diameter": 49.68,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU068",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450336,
+          0.51775
+        ]
+      },
+      "properties": {
+        "id": "PKU068",
+        "species": "Mahoni",
+        "diameter": 29.62,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU069",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450514,
+          0.517714
+        ]
+      },
+      "properties": {
+        "id": "PKU069",
+        "species": "Mahoni",
+        "diameter": 32.17,
+        "temperature": 24.0,
+        "condition": "Rusak",
+        "ecological_score": 2.4,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU070",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.451797,
+          0.510185
+        ]
+      },
+      "properties": {
+        "id": "PKU070",
+        "species": "Bintaro",
+        "diameter": 19.11,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 2.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU071",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.451797,
+          0.510185
+        ]
+      },
+      "properties": {
+        "id": "PKU071",
+        "species": "Bintaro",
+        "diameter": 19.43,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 2.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU072",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.451797,
+          0.510185
+        ]
+      },
+      "properties": {
+        "id": "PKU072",
+        "species": "Bintaro",
+        "diameter": 20.7,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU073",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.451797,
+          0.510185
+        ]
+      },
+      "properties": {
+        "id": "PKU073",
+        "species": "Bintaro",
+        "diameter": 14.01,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 2.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU074",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.451542,
+          0.510251
+        ]
+      },
+      "properties": {
+        "id": "PKU074",
+        "species": "Bintaro",
+        "diameter": 17.83,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 2.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU075",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.451542,
+          0.510251
+        ]
+      },
+      "properties": {
+        "id": "PKU075",
+        "species": "Bintaro",
+        "diameter": 21.02,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU076",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.451104,
+          0.510116
+        ]
+      },
+      "properties": {
+        "id": "PKU076",
+        "species": "Bintaro",
+        "diameter": 17.83,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 2.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU077",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45076,
+          0.509911
+        ]
+      },
+      "properties": {
+        "id": "PKU077",
+        "species": "Bintaro",
+        "diameter": 28.34,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU078",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450995,
+          0.509992
+        ]
+      },
+      "properties": {
+        "id": "PKU078",
+        "species": "Bintaro",
+        "diameter": 23.25,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU079",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450995,
+          0.509992
+        ]
+      },
+      "properties": {
+        "id": "PKU079",
+        "species": "Bintaro",
+        "diameter": 9.55,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 2.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU080",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450764,
+          0.50987
+        ]
+      },
+      "properties": {
+        "id": "PKU080",
+        "species": "Bintaro",
+        "diameter": 28.98,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU081",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450549,
+          0.51013
+        ]
+      },
+      "properties": {
+        "id": "PKU081",
+        "species": "Kelapa",
+        "diameter": 32.17,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU082",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450683,
+          0.509864
+        ]
+      },
+      "properties": {
+        "id": "PKU082",
+        "species": "Mahoni",
+        "diameter": 14.33,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 2.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU083",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450856,
+          0.510283
+        ]
+      },
+      "properties": {
+        "id": "PKU083",
+        "species": "Mahoni",
+        "diameter": 36.94,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU084",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450944,
+          0.510441
+        ]
+      },
+      "properties": {
+        "id": "PKU084",
+        "species": "Mahoni",
+        "diameter": 49.68,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU085",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450741,
+          0.510446
+        ]
+      },
+      "properties": {
+        "id": "PKU085",
+        "species": "Sawit",
+        "diameter": 51.91,
+        "temperature": 24.0,
+        "condition": "Kering",
+        "ecological_score": 1.8,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU086",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450598,
+          0.510636
+        ]
+      },
+      "properties": {
+        "id": "PKU086",
+        "species": "Mahoni",
+        "diameter": 40.76,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU087",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449928,
+          0.512466
+        ]
+      },
+      "properties": {
+        "id": "PKU087",
+        "species": "Mahoni",
+        "diameter": 46.5,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU088",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449816,
+          0.512505
+        ]
+      },
+      "properties": {
+        "id": "PKU088",
+        "species": "Mahoni",
+        "diameter": 25.48,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU089",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449729,
+          0.512578
+        ]
+      },
+      "properties": {
+        "id": "PKU089",
+        "species": "Mahoni",
+        "diameter": 35.35,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU090",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449776,
+          0.512646
+        ]
+      },
+      "properties": {
+        "id": "PKU090",
+        "species": "Mahoni",
+        "diameter": 43.95,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU091",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450995,
+          0.509992
+        ]
+      },
+      "properties": {
+        "id": "PKU091",
+        "species": "Kelapa",
+        "diameter": 28.66,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU092",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449712,
+          0.512691
+        ]
+      },
+      "properties": {
+        "id": "PKU092",
+        "species": "Mahoni",
+        "diameter": 58.6,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU093",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449741,
+          0.512783
+        ]
+      },
+      "properties": {
+        "id": "PKU093",
+        "species": "Mahoni",
+        "diameter": 35.35,
+        "temperature": 24.0,
+        "condition": "Kering",
+        "ecological_score": 1.4,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU094",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449741,
+          0.512783
+        ]
+      },
+      "properties": {
+        "id": "PKU094",
+        "species": "Mahoni",
+        "diameter": 34.08,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU095",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449746,
+          0.512757
+        ]
+      },
+      "properties": {
+        "id": "PKU095",
+        "species": "Mahoni",
+        "diameter": 39.81,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU096",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449786,
+          0.512844
+        ]
+      },
+      "properties": {
+        "id": "PKU096",
+        "species": "Mahoni",
+        "diameter": 58.6,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU097",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449786,
+          0.512844
+        ]
+      },
+      "properties": {
+        "id": "PKU097",
+        "species": "Mahoni",
+        "diameter": 29.94,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU098",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449864,
+          0.512619
+        ]
+      },
+      "properties": {
+        "id": "PKU098",
+        "species": "Mahoni",
+        "diameter": 28.03,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU099",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449864,
+          0.512619
+        ]
+      },
+      "properties": {
+        "id": "PKU099",
+        "species": "Mahoni",
+        "diameter": 20.38,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.448572,
+          0.514994
+        ]
+      },
+      "properties": {
+        "id": "PKU100",
+        "species": "Mahoni",
+        "diameter": 57.96,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU101",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.448556,
+          0.515015
+        ]
+      },
+      "properties": {
+        "id": "PKU101",
+        "species": "Mahoni",
+        "diameter": 31.21,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU102",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.448574,
+          0.515128
+        ]
+      },
+      "properties": {
+        "id": "PKU102",
+        "species": "Mahoni",
+        "diameter": 33.44,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU103",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.448551,
+          0.515263
+        ]
+      },
+      "properties": {
+        "id": "PKU103",
+        "species": "Mahoni",
+        "diameter": 39.49,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.5,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU104",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.448455,
+          0.515319
+        ]
+      },
+      "properties": {
+        "id": "PKU104",
+        "species": "Mahoni",
+        "diameter": 21.02,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 3.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU105",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.448711,
+          0.515232
+        ]
+      },
+      "properties": {
+        "id": "PKU105",
+        "species": "Mahoni",
+        "diameter": 46.5,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU106",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.448671,
+          0.515069
+        ]
+      },
+      "properties": {
+        "id": "PKU106",
+        "species": "Mahoni",
+        "diameter": 42.68,
+        "temperature": 24.0,
+        "condition": "Sehat",
+        "ecological_score": 4.0,
+        "location": "Pekanbaru",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2025-12-02",
+        "surveyor": "Tim PCR",
+        "notes": ""
+      }
+    }
+  ]
+}

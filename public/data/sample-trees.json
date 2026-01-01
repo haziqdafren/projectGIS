@@ -1,0 +1,188 @@
+{
+  "type": "FeatureCollection",
+  "name": "Pohon Peneduh Pekanbaru",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "PKU001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.4617, 0.5383]
+      },
+      "properties": {
+        "id": "PKU001",
+        "species": "Angsana",
+        "species_latin": "Pterocarpus indicus",
+        "diameter": 45.5,
+        "condition": "Sehat",
+        "temperature": 28.5,
+        "ecological_score": 4.5,
+        "location": "Jl. Sudirman",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2024-11-30",
+        "surveyor": "Tim PCR",
+        "notes": "Pohon besar dengan kanopi lebat"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.4620, 0.5385]
+      },
+      "properties": {
+        "id": "PKU002",
+        "species": "Ketapang",
+        "species_latin": "Terminalia catappa",
+        "diameter": 38.2,
+        "condition": "Sehat",
+        "temperature": 29.0,
+        "ecological_score": 4.2,
+        "location": "Jl. Sudirman",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2024-11-30",
+        "surveyor": "Tim PCR",
+        "notes": "Kondisi baik, perlu pemangkasan"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.4615, 0.5380]
+      },
+      "properties": {
+        "id": "PKU003",
+        "species": "Mahoni",
+        "species_latin": "Swietenia macrophylla",
+        "diameter": 52.8,
+        "condition": "Sehat",
+        "temperature": 27.8,
+        "ecological_score": 4.8,
+        "location": "Jl. Jenderal Sudirman",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2024-11-30",
+        "surveyor": "Tim PCR",
+        "notes": "Pohon tua dengan kondisi sangat baik"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.4625, 0.5388]
+      },
+      "properties": {
+        "id": "PKU004",
+        "species": "Trembesi",
+        "species_latin": "Samanea saman",
+        "diameter": 65.3,
+        "condition": "Rusak",
+        "temperature": 30.2,
+        "ecological_score": 3.5,
+        "location": "Jl. Sudirman",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2024-11-30",
+        "surveyor": "Tim PCR",
+        "notes": "Cabang patah, perlu perawatan intensif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.4612, 0.5378]
+      },
+      "properties": {
+        "id": "PKU005",
+        "species": "Flamboyan",
+        "species_latin": "Delonix regia",
+        "diameter": 42.0,
+        "condition": "Sehat",
+        "temperature": 28.3,
+        "ecological_score": 4.3,
+        "location": "Jl. Harapan Raya",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2024-11-30",
+        "surveyor": "Tim PCR",
+        "notes": "Pohon berbunga, estetika tinggi"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.4628, 0.5390]
+      },
+      "properties": {
+        "id": "PKU006",
+        "species": "Beringin",
+        "species_latin": "Ficus benjamina",
+        "diameter": 78.5,
+        "condition": "Kering",
+        "temperature": 31.5,
+        "ecological_score": 2.0,
+        "location": "Jl. Riau",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2024-11-30",
+        "surveyor": "Tim PCR",
+        "notes": "Pohon mati, perlu penggantian"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.4610, 0.5375]
+      },
+      "properties": {
+        "id": "PKU007",
+        "species": "Tanjung",
+        "species_latin": "Mimusops elengi",
+        "diameter": 35.7,
+        "condition": "Sehat",
+        "temperature": 27.5,
+        "ecological_score": 4.6,
+        "location": "Jl. Harapan Raya",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2024-11-30",
+        "surveyor": "Tim PCR",
+        "notes": "Aroma harum, cocok untuk jalan"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PKU008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.4630, 0.5392]
+      },
+      "properties": {
+        "id": "PKU008",
+        "species": "Akasia",
+        "species_latin": "Acacia auriculiformis",
+        "diameter": 28.3,
+        "condition": "Rusak",
+        "temperature": 29.8,
+        "ecological_score": 3.2,
+        "location": "Jl. Riau",
+        "district": "Pekanbaru Kota",
+        "survey_date": "2024-11-30",
+        "surveyor": "Tim PCR",
+        "notes": "Pertumbuhan miring, risiko tumbang"
+      }
+    }
+  ]
+}
