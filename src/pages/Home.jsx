@@ -13,7 +13,7 @@ import {
 
 const stats = [
   { label: 'Total Pohon Terdata', value: '106', icon: TreeDeciduous, color: 'text-green-600' },
-  { label: 'Jenis Pohon', value: '45', icon: Leaf, color: 'text-emerald-600' },
+  { label: 'Jenis Pohon', value: '5', icon: Leaf, color: 'text-emerald-600' },
   { label: 'Penurunan Suhu', value: '3.2°C', icon: ThermometerSun, color: 'text-blue-600' },
   { label: 'Area Terlindungi', value: '125 km²', icon: MapPin, color: 'text-purple-600' },
 ];
