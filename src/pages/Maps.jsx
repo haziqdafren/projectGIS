@@ -68,12 +68,14 @@ export default function Maps() {
   const [error, setError] = useState(null);
   const [selectedCondition, setSelectedCondition] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
+  const [showSuggestions, setShowSuggestions] = useState(false);
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
   const [scrollZoomEnabled, setScrollZoomEnabled] = useState(false);
   const [baseLayer, setBaseLayer] = useState('osm');
   const [showScrollInfo, setShowScrollInfo] = useState(true);
   const [controlsCollapsed, setControlsCollapsed] = useState(false);
   const mapRef = useRef(null);
+  const searchInputRef = useRef(null);
   const [stats, setStats] = useState({
     total: 0,
     healthy: 0,
@@ -90,6 +92,54 @@ export default function Maps() {
     } else {
       mapRef.current.zoomOut();
     }
+  }, []);
+
+  // Get search suggestions
+  const getSearchSuggestions = () => {
+    if (!treeData || !searchQuery || searchQuery.length < 2) return [];
+
+    const query = searchQuery.toLowerCase();
+    const suggestions = new Set();
+
+    treeData.features.forEach(f => {
+      const props = f.properties;
+
+      // Add matching species
+      if (props.species?.toLowerCase().includes(query)) {
+        suggestions.add({ type: 'species', value: props.species, icon: '🌳' });
+      }
+
+      // Add matching locations
+      if (props.location?.toLowerCase().includes(query)) {
+        suggestions.add({ type: 'location', value: props.location, icon: '📍' });
+      }
+
+      // Add matching IDs
+      if (props.id?.toLowerCase().includes(query)) {
+        suggestions.add({ type: 'id', value: props.id, icon: '🔖' });
+      }
+    });
+
+    // Convert Set to Array and remove duplicates, limit to 8 suggestions
+    const uniqueSuggestions = Array.from(suggestions)
+      .filter((item, index, self) =>
+        index === self.findIndex(t => t.value === item.value)
+      )
+      .slice(0, 8);
+
+    return uniqueSuggestions;
+  };
+
+  // Handle click outside to close suggestions
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (searchInputRef.current && !searchInputRef.current.contains(event.target)) {
+        setShowSuggestions(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
   // Load GeoJSON data
@@ -290,22 +340,51 @@ export default function Maps() {
                 <Search className="w-4 h-4" />
                 Cari Pohon
               </h3>
-              <div className="relative">
+              <div className="relative" ref={searchInputRef}>
                 <input
                   type="text"
                   placeholder="Cari spesies, lokasi, atau ID..."
                   value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
+                  onChange={(e) => {
+                    setSearchQuery(e.target.value);
+                    setShowSuggestions(true);
+                  }}
+                  onFocus={() => setShowSuggestions(true)}
                   className="w-full px-4 py-2.5 pl-10 border-2 border-slate-200 rounded-lg focus:border-primary-500 focus:outline-none text-sm"
                 />
                 <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
                 {searchQuery && (
                   <button
-                    onClick={() => setSearchQuery('')}
+                    onClick={() => {
+                      setSearchQuery('');
+                      setShowSuggestions(false);
+                    }}
                     className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600"
                   >
                     ✕
                   </button>
+                )}
+
+                {/* Suggestions Dropdown */}
+                {showSuggestions && searchQuery.length >= 2 && getSearchSuggestions().length > 0 && (
+                  <div className="absolute top-full left-0 right-0 mt-1 bg-white border-2 border-slate-200 rounded-lg shadow-lg z-50 max-h-64 overflow-y-auto">
+                    {getSearchSuggestions().map((suggestion, index) => (
+                      <button
+                        key={`${suggestion.type}-${suggestion.value}-${index}`}
+                        onClick={() => {
+                          setSearchQuery(suggestion.value);
+                          setShowSuggestions(false);
+                        }}
+                        className="w-full px-4 py-2.5 text-left hover:bg-primary-50 transition-colors flex items-center gap-3 border-b border-slate-100 last:border-b-0"
+                      >
+                        <span className="text-lg">{suggestion.icon}</span>
+                        <div className="flex-1">
+                          <div className="text-sm font-medium text-slate-700">{suggestion.value}</div>
+                          <div className="text-xs text-slate-500 capitalize">{suggestion.type}</div>
+                        </div>
+                      </button>
+                    ))}
+                  </div>
                 )}
               </div>
             </div>
