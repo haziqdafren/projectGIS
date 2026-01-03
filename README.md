@@ -209,23 +209,11 @@ Contributions are welcome! Untuk berkontribusi:
 ## 👥 Tim
 
 **Institusi**: Politeknik Caltex Riau
-**Program Studi**: Teknik Geomatika
+**Program Studi**: Teknik Informatika
 **Periode**: November 2024 - Januari 2025
 
-### Kolaborator
-- Dinas Lingkungan Hidup Kota Pekanbaru
-- Badan Perencanaan Pembangunan Daerah
-- Universitas Riau - Fakultas Kehutanan
 
-## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📧 Contact
-
-**Email**: info@pekanbarugreencanopy.com
-**Website**: [Coming Soon]
-**Location**: Politeknik Caltex Riau, Pekanbaru, Riau
 
 ---
 
