@@ -139,18 +139,18 @@ export default function Maps() {
   const getFilteredData = () => {
     if (!treeData) return null;
 
-    let filtered = { ...treeData };
+    let features = [...treeData.features];
 
     // Filter by condition
     if (selectedCondition !== 'all') {
-      filtered.features = treeData.features.filter(
+      features = features.filter(
         f => f.properties.condition === selectedCondition
       );
     }
 
     // Filter by search
     if (searchQuery) {
-      filtered.features = filtered.features.filter(f => {
+      features = features.filter(f => {
         const props = f.properties;
         const query = searchQuery.toLowerCase();
         return (
@@ -161,7 +161,10 @@ export default function Maps() {
       });
     }
 
-    return filtered;
+    return {
+      ...treeData,
+      features: features
+    };
   };
 
   // Style untuk marker berdasarkan kondisi
