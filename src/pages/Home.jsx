@@ -223,7 +223,7 @@ export default function Home() {
               </div>
 
               <p className="text-slate-700 italic">
-                💡 Pohon peneduh dapat menurunkan suhu permukaan hingga 3-5°C
+                Pohon peneduh dapat menurunkan suhu permukaan hingga 3-5°C
                 dan meningkatkan kualitas hidup warga kota.
               </p>
             </motion.div>

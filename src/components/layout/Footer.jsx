@@ -98,8 +98,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-slate-800 mt-8 pt-8 text-sm text-center text-slate-400">
           <p>
-            © {currentYear} Pekanbaru Green Canopy. Dikembangkan dengan ❤️ untuk
-            lingkungan yang lebih hijau.
+            © {currentYear} Pekanbaru Green Canopy. Dikembangkan untuk lingkungan yang lebih hijau.
           </p>
         </div>
       </div>

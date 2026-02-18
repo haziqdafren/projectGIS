@@ -106,17 +106,17 @@ export default function Maps() {
 
       // Add matching species
       if (props.species?.toLowerCase().includes(query)) {
-        suggestions.add({ type: 'species', value: props.species, icon: '🌳' });
+        suggestions.add({ type: 'species', value: props.species });
       }
 
       // Add matching locations
       if (props.location?.toLowerCase().includes(query)) {
-        suggestions.add({ type: 'location', value: props.location, icon: '📍' });
+        suggestions.add({ type: 'location', value: props.location });
       }
 
       // Add matching IDs
       if (props.id?.toLowerCase().includes(query)) {
-        suggestions.add({ type: 'id', value: props.id, icon: '🔖' });
+        suggestions.add({ type: 'id', value: props.id });
       }
     });
 
@@ -250,7 +250,7 @@ export default function Maps() {
         <div style="min-width: 200px; font-family: Inter, sans-serif;">
           <div style="border-bottom: 2px solid ${getMarkerColor(props.condition)}; padding-bottom: 8px; margin-bottom: 8px;">
             <div style="font-weight: 700; font-size: 16px; color: #1e293b; margin-bottom: 4px;">
-              🌳 ${props.species || 'Unknown'}
+              ${props.species || 'Unknown'}
             </div>
             <div style="font-size: 12px; color: #64748b; font-style: italic;">
               ${props.species_latin || ''}
@@ -282,18 +282,18 @@ export default function Maps() {
 
             <div style="display: flex; justify-content: space-between;">
               <span style="color: #64748b;">Skor Ekologi:</span>
-              <span style="font-weight: 600; color: #1e293b;">⭐ ${props.ecological_score}/5</span>
+              <span style="font-weight: 600; color: #1e293b;">${props.ecological_score}/5</span>
             </div>
           </div>
 
           <div style="margin-top: 12px; padding-top: 8px; border-top: 1px solid #e2e8f0;">
-            <div style="font-size: 12px; color: #64748b; margin-bottom: 2px;">📍 Lokasi:</div>
+            <div style="font-size: 12px; color: #64748b; margin-bottom: 2px;">Lokasi:</div>
             <div style="font-size: 13px; color: #1e293b; font-weight: 500;">${props.location}</div>
           </div>
 
           ${props.notes ? `
             <div style="margin-top: 8px; padding: 8px; background: #f1f5f9; border-radius: 6px; font-size: 12px; color: #475569;">
-              💬 ${props.notes}
+              ${props.notes}
             </div>
           ` : ''}
 
@@ -377,7 +377,6 @@ export default function Maps() {
                         }}
                         className="w-full px-4 py-2.5 text-left hover:bg-primary-50 transition-colors flex items-center gap-3 border-b border-slate-100 last:border-b-0"
                       >
-                        <span className="text-lg">{suggestion.icon}</span>
                         <div className="flex-1">
                           <div className="text-sm font-medium text-slate-700">{suggestion.value}</div>
                           <div className="text-xs text-slate-500 capitalize">{suggestion.type}</div>
@@ -709,7 +708,7 @@ export default function Maps() {
                 <div>
                   <div className="font-semibold mb-1">Scroll Zoom Disabled</div>
                   <div className="text-xs text-slate-300">
-                    Gunakan <kbd className="bg-slate-700 px-1 rounded">Ctrl</kbd> + Scroll untuk zoom map, atau klik icon 🖱️
+                    Gunakan <kbd className="bg-slate-700 px-1 rounded">Ctrl</kbd> + Scroll untuk zoom map, atau aktifkan scroll zoom
                   </div>
                 </div>
               </div>

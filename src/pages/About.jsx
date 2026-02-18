@@ -107,10 +107,10 @@ export default function About() {
                   signifikan akibat:
                 </p>
                 <ul className="space-y-2 text-slate-600">
-                  <li>🏙️ Peningkatan area terbangun dan berkurangnya ruang terbuka hijau</li>
-                  <li>🚗 Emisi kendaraan bermotor yang terus meningkat</li>
-                  <li>🏭 Aktivitas industri dan komersial yang intensif</li>
-                  <li>☀️ Paparan radiasi matahari yang tinggi sepanjang tahun</li>
+                  <li>Peningkatan area terbangun dan berkurangnya ruang terbuka hijau</li>
+                  <li>Emisi kendaraan bermotor yang terus meningkat</li>
+                  <li>Aktivitas industri dan komersial yang intensif</li>
+                  <li>Paparan radiasi matahari yang tinggi sepanjang tahun</li>
                 </ul>
                 <p className="text-slate-600 mt-4">
                   Pohon peneduh jalan berperan <strong className="text-primary-600">vital</strong> dalam
@@ -447,7 +447,7 @@ export default function About() {
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white/70 backdrop-blur rounded-xl p-6">
                 <div className="font-bold text-lg text-primary-700 mb-2">
-                  🔍 Filter Kondisi Pohon
+                  Filter Kondisi Pohon
                 </div>
                 <p className="text-sm text-slate-600 mb-3">
                   Menampilkan pohon berdasarkan kondisi: Sehat, Rusak, atau Kering
@@ -458,7 +458,7 @@ export default function About() {
               </div>
               <div className="bg-white/70 backdrop-blur rounded-xl p-6">
                 <div className="font-bold text-lg text-primary-700 mb-2">
-                  🔎 Pencarian Data
+                  Pencarian Data
                 </div>
                 <p className="text-sm text-slate-600 mb-3">
                   Cari pohon berdasarkan spesies, lokasi, atau ID pohon
@@ -469,7 +469,7 @@ export default function About() {
               </div>
               <div className="bg-white/70 backdrop-blur rounded-xl p-6">
                 <div className="font-bold text-lg text-primary-700 mb-2">
-                  🎨 Visualisasi Warna
+                  Visualisasi Warna
                 </div>
                 <p className="text-sm text-slate-600 mb-3">
                   Marker berwarna sesuai kondisi pohon untuk identifikasi cepat

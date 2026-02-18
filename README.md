@@ -1,226 +1,226 @@
-# 🌳 Pekanbaru Green Canopy
+# Pekanbaru Green Canopy — GIS Vegetasi Perkotaan
 
-> Platform analisis spasial vegetasi dan pohon peneduh jalan untuk lingkungan perkotaan berkelanjutan di Kota Pekanbaru
+A GIS web platform built for university coursework at Politeknik Caltex Riau (TA 2025/2026), mapping and analysing **106 roadside shade trees** across four major streets in Pekanbaru — visualising species distribution, trunk diameter, tree health conditions, and surface temperatures to study their ecological contribution to **Urban Heat Island (UHI)** mitigation.
 
-![React](https://img.shields.io/badge/React-18.3.0-61DAFB?logo=react)
-![Vite](https://img.shields.io/badge/Vite-5.0.0-646CFF?logo=vite)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.0-06B6D4?logo=tailwindcss)
-![License](https://img.shields.io/badge/License-MIT-green)
+---
 
-## 📋 Deskripsi Project
+## The Workflow
 
-Website informatif dan interaktif untuk visualisasi dan edukasi tentang kondisi vegetasi dan pohon peneduh jalan di Kota Pekanbaru sebagai upaya mitigasi **Urban Heat Island (UHI)**. Project ini menganalisis:
+```
+Field Survey  →  Excel Entry  →  GeoJSON Conversion  →  React + Leaflet Platform  →  Vercel
+(GPSMapCamera)   (Cleaning)     (Python script)         (4 interactive pages)
+```
 
-- 🌳 **Jenis Pohon** - Identifikasi spesies dan taksonomi
-- 📏 **Diameter Batang (DBH)** - Pengukuran diameter setinggi dada
-- 💚 **Kondisi Pohon** - Penilaian kesehatan (Sehat, Rusak, Kering)
-- 🌡️ **Suhu Permukaan** - Pengukuran dengan termometer portable
-- ⭐ **Fungsi Ekologi** - Penilaian kontribusi mitigasi panas
+---
 
-## ✨ Fitur
+## Step 1 — Field Survey
 
-### Saat Ini (Phase 1)
-✅ **Halaman Home** - Landing page modern dengan statistik dan overview
-✅ **Halaman About** - Edukasi tentang Urban Heat Island dan metodologi penelitian
-✅ **Halaman Contact** - Form kontak dan informasi tim
-✅ **Responsive Design** - Mobile-friendly untuk semua perangkat
-✅ **Modern UI/UX** - Animasi smooth dengan Framer Motion
+Data was collected directly on four major roads in Pekanbaru City:
 
-### Dalam Pengembangan (Phase 2)
-🚧 **Peta Interaktif** - Visualisasi data spasial dengan Leaflet
-🚧 **Filter & Layer Control** - Filter berdasarkan jenis, kondisi, diameter
-🚧 **Heatmap Suhu** - Visualisasi distribusi suhu permukaan
-🚧 **Dashboard Analytics** - Chart dan statistik mendalam
+- Jalan Diponegoro
+- Jalan Gadjah Mada
+- Jalan Sumatera
+- Jalan Patimura
 
-## 🚀 Quick Start
+Each tree was recorded using **GPSMapCamera** for GPS coordinates, a measuring tape for trunk diameter (DBH), visual assessment for health condition, and a portable thermometer for ambient surface temperature. The survey produced **106 tree records**, meeting the minimum dataset requirement for analysis.
 
-### Prerequisites
+Attributes collected per tree: Coordinates (Lat, Long) · Tree Species · Trunk Diameter (cm) · Health Condition (Sehat / Rusak / Kering) · Surface Temperature (°C) · Photo documentation
 
-- Node.js >= 18.0.0
-- npm atau yarn
+---
 
-### Installation
+## Step 2 — Data Entry & Cleaning
+
+Survey results were entered into Excel for cleaning and validation — standardising species names, correcting coordinate typos, and handling missing values. The clean spreadsheet was then exported as CSV for conversion.
+
+---
+
+## Step 3 — GeoJSON Conversion
+
+A Python script (`convert_excel_to_geojson.py`) converts the cleaned CSV into GeoJSON format. Each tree becomes a `Feature` point with full attribute properties, ready for Leaflet to consume directly.
+
+```json
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [101.4500, 0.5333] },
+  "properties": {
+    "id": "PKU001",
+    "species": "Angsana",
+    "species_latin": "Pterocarpus indicus",
+    "diameter": 45.5,
+    "condition": "Sehat",
+    "temperature": 28.5,
+    "ecological_score": 4.5,
+    "location": "Jl. Diponegoro",
+    "survey_date": "2025-01-10",
+    "surveyor": "Tim Kelompok 10"
+  }
+}
+```
+
+---
+
+## Step 4 — React + Leaflet Platform
+
+The website is a single-page application built with **React 19 + Vite**, styled with **Tailwind CSS**, and animated with **Framer Motion**. It consists of four pages:
+
+**Beranda (Home)** — Hero section with real-time aggregated statistics (total trees, species count, average temperature reduction, protected area). Statistics are calculated dynamically via `calculateStats()` from the live GeoJSON dataset.
+
+**Tentang (About)** — Contextual education on the Urban Heat Island phenomenon, research methodology, and the ecological role of roadside trees — backed by four published academic references.
+
+**Peta (Maps)** — The core of the platform. An interactive **Leaflet** map with:
+- Colour-coded markers by health condition: green (Sehat) · yellow (Rusak) · red (Kering)
+- Marker size proportional to trunk diameter (DBH)
+- Multi-layer filtering by condition and real-time search by species, location, or tree ID
+- Autocomplete search suggestions (up to 8 results, de-duplicated)
+- Real-time statistics recalculated on every filter change
+- Satellite / standard tile layer toggle (Google Satellite + OpenStreetMap)
+- Rich popups with species name (local + Latin), DBH, condition, temperature, ecological score (1–5), survey date, and surveyor
+- Collapsible sidebar, scroll-zoom toggle, auto `fitBounds` on filter
+
+**Kontak (Contact)** — Two-way contact form with institution details, enabling collaboration inquiries.
+
+---
+
+## Step 5 — Deployment
+
+Deployed as a static SPA on **Vercel**. `vercel.json` rewrites all routes to `index.html` to support client-side React Router navigation.
+
+---
+
+## Key Findings
+
+- Trees on surveyed roads show measurably **lower surface temperatures** (avg. −3.2°C) compared to unshaded surfaces — consistent with Ow et al. (2020) findings in Singapore's tropical climate
+- **Angsana** (*Pterocarpus indicus*) is the dominant species, with the largest canopy spread and highest ecological scores across all four roads
+- A portion of trees are in **Rusak or Kering** condition, indicating maintenance gaps — reducing the overall shading effectiveness of the current roadside vegetation
+- Spatial clustering is uneven: some road sections have dense tree cover while others have significant gaps, creating inconsistent thermal comfort for pedestrians
+- The data provides a baseline for the local government to prioritise **targeted replanting** and maintenance along high-activity pedestrian corridors
+
+---
+
+## Screenshots
+
+### Interactive Map — Tree Distribution (Leaflet)
+
+> Colour = health condition · Size = trunk diameter · Click marker for full tree profile
+
+### Home Page — Real-time Statistics Dashboard
+
+> Stats aggregated live from GeoJSON: total trees, species count, average temperature reduction
+
+---
+
+## Project Structure
+
+```
+pekanbaru-green-canopy/
+│
+├── public/
+│   ├── favicon.svg                → custom green tree icon
+│   └── data/
+│       ├── trees.json             → full GeoJSON dataset (106 trees)
+│       └── sample-trees.json      → sample data for local testing
+│
+├── src/
+│   ├── components/
+│   │   ├── common/
+│   │   │   └── ScrollToTop.jsx
+│   │   └── layout/
+│   │       ├── Header.jsx         → sticky nav with mobile hamburger menu
+│   │       └── Footer.jsx
+│   ├── pages/
+│   │   ├── Home.jsx               → landing page, animated stats cards
+│   │   ├── About.jsx              → UHI education & research methodology
+│   │   ├── Maps.jsx               → Leaflet map, filters, popups, stats
+│   │   └── Contact.jsx            → contact form & team info
+│   ├── utils/
+│   │   └── cn.js                  → clsx + tailwind-merge utility
+│   ├── App.jsx                    → React Router setup
+│   ├── main.jsx                   → entry point
+│   └── index.css                  → Tailwind base + custom components
+│
+├── convert_excel_to_geojson.py    → CSV → GeoJSON conversion script
+├── index.html
+├── tailwind.config.js             → emerald green design system
+├── vite.config.js
+├── vercel.json                    → SPA routing rewrite rules
+├── package.json
+└── README.md
+```
+
+---
+
+## Tech Stack
+
+| Layer | Tools |
+|---|---|
+| Frontend framework | React 19, Vite 7 |
+| Styling & animation | Tailwind CSS 3.4, Framer Motion, Lucide React |
+| Routing | React Router v7 |
+| Mapping | Leaflet 1.9, React-Leaflet 5, OpenStreetMap, Google Satellite |
+| Data format | GeoJSON |
+| Data conversion | Python (pandas, json) |
+| Deployment | Vercel |
+
+---
+
+## Running Locally
 
 ```bash
-# Clone repository
+# Clone the repository
 git clone https://github.com/yourusername/pekanbaru-green-canopy.git
-
-# Masuk ke folder project
 cd pekanbaru-green-canopy
 
 # Install dependencies
 npm install
 
-# Jalankan development server
+# Start development server
 npm run dev
 ```
 
-Website akan berjalan di `http://localhost:5173` (atau port lain jika 5173 sudah digunakan)
-
-### Build untuk Production
+App runs at `http://localhost:5173`
 
 ```bash
-# Build optimized production bundle
+# Build for production
 npm run build
 
 # Preview production build locally
 npm run preview
 ```
 
-## 🛠️ Tech Stack
+---
 
-### Core
-- **React 18.3** - UI library
-- **Vite 5.0** - Build tool & dev server
-- **React Router v6** - Client-side routing
+## Converting Survey Data
 
-### Styling & UI
-- **Tailwind CSS 3.4** - Utility-first CSS framework
-- **Framer Motion** - Animation library
-- **Lucide React** - Icon library
-
-### Mapping (Coming Soon)
-- **Leaflet** - Interactive maps
-- **React-Leaflet** - React components for Leaflet
-- **Leaflet.heat** - Heatmap plugin
-- **Leaflet.markercluster** - Marker clustering
-
-## 📂 Project Structure
-
-```
-pekanbaru-green-canopy/
-├── public/               # Static assets
-├── src/
-│   ├── assets/          # Images, styles
-│   ├── components/      # React components
-│   │   ├── common/      # Reusable components
-│   │   ├── layout/      # Header, Footer
-│   │   ├── home/        # Home-specific components
-│   │   └── map/         # Map components (future)
-│   ├── pages/           # Page components
-│   │   ├── Home.jsx
-│   │   ├── About.jsx
-│   │   ├── Maps.jsx
-│   │   └── Contact.jsx
-│   ├── utils/           # Utility functions
-│   ├── App.jsx          # Main app component
-│   ├── main.jsx         # Entry point
-│   └── index.css        # Global styles
-├── tailwind.config.js   # Tailwind configuration
-├── vite.config.js       # Vite configuration
-└── package.json
+```bash
+pip install pandas openpyxl
+python convert_excel_to_geojson.py
 ```
 
-## 🎨 Design System
-
-### Color Palette
-
-```js
-Primary Green: #10b981 (Emerald-500)
-Dark Green:    #047857 (Emerald-700)
-Light Green:   #d1fae5 (Emerald-100)
-
-Condition Colors:
-- Healthy:  #22c55e (Green-500)
-- Warning:  #eab308 (Yellow-500)
-- Critical: #ef4444 (Red-500)
-
-Temperature Gradient:
-Cool → Warm: Blue → Green → Yellow → Red
-```
-
-### Typography
-
-- **Headings**: Plus Jakarta Sans / Inter (bold, modern)
-- **Body**: Inter (clean, readable)
-- **Monospace**: System monospace (untuk data/koordinat)
-
-## 🗺️ Roadmap
-
-### Phase 1: Setup & Core Pages ✅ (Selesai)
-- [x] Initialize React + Vite project
-- [x] Setup Tailwind CSS
-- [x] Create routing structure
-- [x] Implement Home page
-- [x] Implement About page
-- [x] Create reusable components (Header, Footer)
-
-### Phase 2: Map Integration 🚧 (In Progress)
-- [ ] Integrate Leaflet map
-- [ ] Implement layer controls
-- [ ] Add marker clustering
-- [ ] Create custom popups
-- [ ] Implement filters
-
-### Phase 3: Data Visualization
-- [ ] Load KML/GeoJSON data
-- [ ] Implement heatmap
-- [ ] Create Analytics dashboard (charts)
-- [ ] Add statistics calculations
-
-### Phase 4: Polish & Deploy
-- [ ] Animations & transitions optimization
-- [ ] Mobile optimization
-- [ ] Performance optimization
-- [ ] SEO optimization
-- [ ] Deploy to Vercel/Netlify
-
-### Future Enhancements
-- [ ] User authentication
-- [ ] Crowdsourcing data (user submit pohon baru)
-- [ ] Backend API (Laravel/Node.js)
-- [ ] Database (PostgreSQL + PostGIS)
-- [ ] Mobile app (React Native)
-
-## 📊 Data Structure
-
-Data pohon akan disimpan dalam format GeoJSON/KML dengan struktur:
-
-```json
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [101.4500, 0.5333]
-  },
-  "properties": {
-    "id": "PKU001",
-    "species": "Angsana",
-    "diameter": 45.5,
-    "condition": "Sehat",
-    "temperature": 28.5,
-    "ecological_score": 4.5,
-    "location": "Jl. Sudirman",
-    "survey_date": "2024-11-30"
-  }
-}
-```
-
-## 🤝 Contributing
-
-Contributions are welcome! Untuk berkontribusi:
-
-1. Fork repository ini
-2. Create feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open Pull Request
-
-## 👥 Tim
-
-**Institusi**: Politeknik Caltex Riau
-**Program Studi**: Teknik Informatika
-**Periode**: November 2024 - Januari 2025
-
-
-
+The script reads the cleaned CSV, maps each row to a GeoJSON `Feature` point with all survey attributes, and writes `public/data/trees.json` — which the Leaflet map loads automatically on startup.
 
 ---
 
-<p align="center">
-  Dikembangkan dengan ❤️ untuk lingkungan yang lebih hijau
-</p>
+## Team
 
-<p align="center">
-  <strong>Pekanbaru Green Canopy © 2024</strong>
-</p>
+**Kelompok 10 — Teknik Informatika, Politeknik Caltex Riau**
+
+| Name | Student ID | Role |
+|---|---|---|
+| M. Adib Al Jabrah | 2355301102 | Field survey coordination, data collection |
+| Mohamad Haziq Dafren | 2355301119 | Website development, data visualisation |
+| Muhammad Anwar Aziz | 2355301125 | GIS data processing, GeoJSON pipeline |
+| Muhammad Arya | 2355301126 | Spatial analysis, map layer design |
+| Fhadel Nouval Nudrian | 2355301072 | Field survey, data entry & cleaning |
+
+**Supervisor:** Mardiah Fadli, S.T., M.T.
+**Lab Instructor:** Ahmad Ali Munawar, S.T.
+
+---
+
+## Full Report
+
+Full technical documentation (in Indonesian) is available in `dokumenSIG.pdf` — covers the research background, field survey methodology, data model design, web platform implementation, and spatial analysis findings in detail.
+
+---
+
+*GIS Project — TA 2025/2026 · Politeknik Caltex Riau*
